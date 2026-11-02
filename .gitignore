@@ -1,0 +1,21 @@
+# 构建产物
+build/
+*.idsig
+*.apk
+*.dex
+*.zip
+
+# 签名文件（build.ps1 会自动生成，不要提交）
+debug.keystore
+*.jks
+*.keystore
+
+# IDE / 系统
+.idea/
+*.iml
+.gradle/
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log

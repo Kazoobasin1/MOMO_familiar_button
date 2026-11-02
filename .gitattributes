@@ -1,0 +1,11 @@
+# 统一换行，避免 Windows 下 checkout 出来带回车
+* text=auto eol=lf
+
+# PowerShell 脚本在 Windows 下用 CRLF 更稳
+*.ps1 text eol=crlf
+
+# 这个文件是 LSPosed 读取的类名列表，必须 LF 且不带 BOM
+xposed_init text eol=lf
+
+*.png binary
+*.apk binary
